@@ -1,0 +1,320 @@
+@font-face {
+  font-family: "Fenwick Outline";
+  src: url("./fonts/FenwickOutline.otf") format("opentype");
+}
+
+body {
+  font-family: "Fenwick Outline", sans-serif;
+  margin: 0px;
+ 
+}
+.navbar {
+  width: 100%;
+  height: 50px;
+  background: yellow;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.dbi {
+  cursor: pointer;
+}
+.logo {
+  margin-left: 0px;
+}
+.div {
+  font-size: 28px;
+  font-weight: bold;
+  color: #111;
+  margin: 20px;
+}
+.loc {
+  display: flex;
+  padding: 5px;
+  
+  cursor: pointer;
+  padding: 10px;
+}
+.loc:hover {
+  background-color: rgb(228, 231, 36);
+  border-radius: 6px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+.nav-links a {
+  color: #111;
+  text-decoration: none;
+}
+.search-box {
+  flex: 1;
+  max-width: 450px;
+  height: 25px;
+  display: flex;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 6px;
+  align-items: center;
+  gap: 3px;
+}
+.search-box input {
+  flex: 1;
+
+  border: none;
+  padding: 0 18px;
+}
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 70px;
+  margin-left: 30px;
+}
+.icn1 {
+  gap: 10px;
+  display: flex;
+  cursor: pointer;
+  padding: 10px;
+  
+}
+.icn1:hover {
+  background-color: rgba(224, 228, 24, 0.671);
+  border-radius: 6px;
+}
+.person {
+  
+  display: flex;
+  gap: 8px;
+  white-space: nowrap;
+  cursor: pointer;
+  padding: 10px;
+  
+}
+.person:hover {
+ background-color: rgba(224, 228, 24, 0.671);
+  border-radius: 6px;
+  
+}
+.order {
+  display: flex;
+  gap: 10px;
+  cursor: pointer;
+   padding: 10px;
+  
+}
+.order:hover {
+   background-color: rgba(224, 228, 24, 0.671);
+  border-radius: 6px;
+  
+}
+.wish {
+  display: flex;
+  gap: 10px;
+  cursor: pointer;
+   padding: 10px;
+  
+}
+.wish:hover {
+   background-color: rgba(224, 228, 24, 0.671);
+  border-radius: 6px;
+  
+}
+.cart {
+  display: flex;
+  gap: 10px;
+  cursor: pointer;
+     padding: 10px;
+  
+}
+.cart:hover {
+   background-color: rgba(224, 228, 24, 0.671);
+  border-radius: 6px;
+  
+}
+
+.products {
+  display: flex;
+  gap: 40px;
+  background-color: #d4af37;
+  border-radius: 20px;
+}
+/* .div2{
+  background-color: rgb(241, 241, 232);
+  white-space: nowrap;
+}
+.li{
+  display: flex;
+  
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  gap: 20px;
+} */
+ .div2{
+ width: 100%;
+ align-items: center;
+ }
+ .div3{
+  display: flex;
+ }
+ div.scrollmenu {
+  width: 80%;
+  display: flex;
+  background-color: #e6e3e3;
+  overflow: auto;
+  white-space: nowrap;
+   overflow: auto;
+  scrollbar-width: none;
+  align-items: center;
+  
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+
+}
+
+div.scrollmenu a:hover {
+  background-color: #777;
+  
+} 
+.elec{
+  padding-bottom: 10px;
+
+}
+.elec:hover{
+  border-bottom: 3px solid black;
+}
+.rarr{
+position: end absolute;
+}
+.delivery{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  margin-left: 18px;
+  gap: 8px;
+  width: fit-content;
+  height: 9px;
+  padding: 9px 10px;
+  border: 2px solid #e51b23;
+  border-radius: 30px;
+  background: #fffdf5;
+  font-size: 14px;
+  font-weight: 600;
+  color: #172b3a;
+}
+.noon{
+  background: #ffe500;
+  color: #000;
+  font-size: 18px;
+  font-weight: 700;
+
+  padding: 2px 9px;
+  border-radius: 50%;
+  border: 2px solid #e51b23;
+}
+.arrow{
+  font-size: 25px;
+  line-height: 1;
+  margin-left: 3px;
+}
+.imgs{
+  display: flex;
+}
+.items{
+  margin-left: 20px;
+  margin-top: 20px;
+  display: flex;
+}
+.imggrp{
+  width: 40%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.more{
+  margin-left: 20px;
+}
+.newwww{
+  width: 50%;
+}
+.footerheader{
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  background-color: #d4d4d3;
+}
+
+.iconm{
+  display: flex;
+  gap: 40px;
+}
+.maincontainer{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  padding: 5px;
+
+}
+.headdd{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+}
+.headbody{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+}
+.rowwise{
+  display: flex;
+  flex-direction: column;
+}
+.megadeals{
+  background-color: #FFF0EE;
+  
+}
+.ddiivv{
+  height: auto;
+  width: 200px;
+  background-color: #d9d9db;
+  border-radius: 15px;
+}
+.fourphones{
+  display: flex;
+}
+.mobiledeal{
+  background-color: purple;
+  color: yellow;  
+  margin-left: 100px;
+  border-radius: 0px 18px;
+}
+.textt{
+  margin-left: 8px;
+}
+.imageandadd{
+  gap: 5px;
+  display: flex;
+  padding: 20px;
+}
+.ii{
+  width: 30px;
+  margin-top: auto;
+}
+.longtext{
+  font-weight: bold;
+}
+.rate{
+  text-decoration: line-through red;
+}
+.footer{
+  padding: 10px;
+}
