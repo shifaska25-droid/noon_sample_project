@@ -1,3 +1,8 @@
+<img width="1365" height="673" alt="Screenshot 2026-10-27 102554" src="https://github.com/user-attachments/assets/1e33d65d-a3dc-428e-8ecb-28d573a7003c" />
+<img width="1365" height="637" alt="Screenshot 2026-10-27 102530" src="https://github.com/user-attachments/assets/28f81dc9-165a-4432-81b2-957e7eab328c" />
+
+
+
 # 🛍️ Noon E-Commerce Website Clone
 
 A frontend e-commerce website inspired by **Noon**, currently under development. This project is being created to practice and improve my skills in **HTML and CSS** while building a real-world e-commerce interface.
